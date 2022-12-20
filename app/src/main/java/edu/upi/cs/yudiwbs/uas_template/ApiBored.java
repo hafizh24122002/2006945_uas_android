@@ -7,7 +7,7 @@ import com.loopj.android.http.AsyncHttpResponseHandler;
 import com.loopj.android.http.RequestParams;
 
 public class ApiBored {
-    private static final String BASE_URL = "https://www.boredapi.com/api/activity";
+    private static final String BASE_URL = "https://www.boredapi.com/";
     private static AsyncHttpClient client = new AsyncHttpClient();
 
     public static void get(String url, RequestParams params, AsyncHttpResponseHandler responseHandler) {

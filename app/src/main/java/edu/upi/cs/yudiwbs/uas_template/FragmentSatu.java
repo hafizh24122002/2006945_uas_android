@@ -71,7 +71,7 @@ public class FragmentSatu extends Fragment {
                 binding.tvKeterangan.setText("Tunggu sebentar, loading data dari API");
                 //https://www.boredapi.com/api/activity
                 Log.d("debugyudi","onclick");
-                ApiBored.get("activity/", null, new JsonHttpResponseHandler() {
+                ApiBored.get("api/activity/", null, new JsonHttpResponseHandler() {
                     @Override
                     //hati2 success jsonobjek atau jsonarray
                     public void onSuccess(int statusCode,

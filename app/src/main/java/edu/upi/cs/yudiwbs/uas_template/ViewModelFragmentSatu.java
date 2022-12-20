@@ -5,4 +5,6 @@ import androidx.lifecycle.ViewModel;
 
 public class ViewModelFragmentSatu extends ViewModel {
     public MutableLiveData<String> data;
+
+
 }
