@@ -30,7 +30,7 @@ public class AdapterHasil extends RecyclerView.Adapter<ViewHolderHasil> {
     @Override
     public void onBindViewHolder(@NonNull ViewHolderHasil holder, int position) {
         Hasil m = alHasil.get(position);
-        holder.tvHasil.setText(m.getHasil());
+        holder.tvType.setText(m.getHasil());
     }
 
     @Override

@@ -6,11 +6,11 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-public class ViewHolderHasil extends RecyclerView.ViewHolder {
+public class ViewHolderData extends RecyclerView.ViewHolder {
     public TextView tvType;
 
-    public ViewHolderHasil(@NonNull View itemView) {
+    public ViewHolderData(@NonNull View itemView) {
         super(itemView);
-        tvType = itemView.findViewById(R.id.tvRow);
+        tvType = itemView.findViewById(R.id.tvFragmentSatuRow);
     }
 }
